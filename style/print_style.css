@@ -35,6 +35,7 @@ address{
 }
 .email-links{
   text-decoration: none;
+  color: black;
 }
 nav{
   display: none;
