@@ -81,7 +81,6 @@ nav{
 }
 .sets{
   position: relative;
-  bottom: 35pt;
   right: 20pt;
 }
 #thrillist,#shbp,#american-eagle,#philadthropy{
@@ -99,39 +98,37 @@ nav{
 }
 #american-eagle{
   position: relative;
-  bottom: 50pt;
 }
 #shbp,#american-eagle{
   position: relative;
   left: 300pt;
-  bottom:57pt;
+  top: 60pt;
 }
 #shbp{
   border-top: 2pt solid;
   position: relative;
-  bottom: 44pt;
 }
 #extra{
   position: relative;
   bottom: 10pt;
 }
-h3,h4,h5,h6{
+.job-title,.job-position,.job-location,.job-date{
   line-height: 0.5;
 }
-h3{
+.job-title{
   font-size: 13pt;
   font-weight: bold;
 }
-h4{
+.job-locatoin{
   font-style: italic;
 }
-h5{
+.job-date{
   position: relative;
   bottom:5pt;
 }
-h6{
+.job-position{
   position: relative;
-  bottom: 15pt;
+  margin-top: 5pt;
   text-decoration: underline;
 }
 
@@ -149,4 +146,7 @@ h6{
   position: relative;
   right: 10pt;
   bottom: 10pt;
+}
+#contactico,#visit{
+  display: none;
 }

@@ -3,18 +3,31 @@
 
   <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width; initial-scale=1;" />
     <title>Mack Bateman's Resume</title>
-    <link href="style/screen_style.css" rel="stylesheet" media="screen">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum|Francois+One" rel="stylesheet" type="text/css">
-    <link href="style/print_style.css" rel="stylesheet" media="print">
+    <link href="css/screen_style.css" rel="stylesheet" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Dosis|Poiret+One' rel='stylesheet' type='text/css'>
+    <link href="css/print_style.css" rel="stylesheet" media="print">
+    <link href="css/mobile_style.css" rel="stylesheet" media="screen">
   </head>
 
   <body>
 
     <header>
-      <h1>Makena Alexander Bateman</h1>
-      <img src="img/LinkedInPic.jpg" alt="LinkedIn Picture"/>
-      <address>
+      <h1  class ="page-header" id="restop">Makena Alexander Bateman</h1>
+
+      <nav id="site-contents">
+          <p class ="uninav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact-info.html">Contact</a>
+            <a href="portfolio.html">Portfolio</a>
+          </p>
+      </nav>
+
+      <div id="res">
+      <img id="resume-picture" src="img/resume-pic.jpg" alt="Professional Picture" width="419" height="400" img align ="right"/>
+      <address id="contact-me">
         <h2 id="contacts">Contact Information</h2>
         <p id="contact-info">
           235 Sandlewood Drive, Bayville, NJ 08721<br>
@@ -26,7 +39,7 @@
       </address>
     </header>
 
-    <nav>
+    <nav id ="resume-nav">
       <h2 id="contents">Contents</h2>
         <p id="nav-links">
           <a class="cont" href="#education">Education</a><br>
@@ -54,11 +67,12 @@
       <section id="experience">
         <h2 id="experience-header">Experience</h2>
 
+        <div id = "workhistory">
         <article id="hrl">
-          <h3 class="job-title">University of Miami Housing and Residential Life</h3>
-          <h4 class="job-location">Coral Gables, Florida</h4>
-          <h5 class="job-date">December 2015 - Present</h5>
-          <h6 class="job-position">Security Assistant</h6>
+          <p class="job-title">University of Miami Housing and Residential Life</h3>
+          <p class="job-location">Coral Gables, Florida</p>
+          <p class="job-date">December 2015 - Present</p>
+          <p class="job-position">Security Assistant</p>
           <ul class="sets">
             <li>Trained to master all policies and procedures to provide a safe and secure environment for residents on campus</li>
             <li>Interacts with over 200 residents per night in a polite and professional manner</li>
@@ -67,10 +81,10 @@
         </article>
 
         <article id="thrillist">
-          <h3 class="job-title">Thrillist</h3>
-          <h4 class="job-location">Miami, Florida</h4>
-          <h5 class="job-date">November 2015 - Present</h5>
-          <h6 class="job-position">Editorial Assistant</h6>
+          <p class="job-title">Thrillist</p>
+          <p class="job-location">Miami, Florida</p>
+          <p class="job-date">November 2015 - Present</p>
+          <p class="job-position">Editorial Assistant</p>
           <ul class="sets">
             <li>Researches content and photographs while following proper copyright laws for published articles</li>
             <li>Edits article drafts for usage, spelling, grammar, style and other errors</li>
@@ -78,20 +92,20 @@
         </article>
 
         <article id="philadthropy">
-          <h3 class="job-title">PhilADthropy</h3>
-          <h4 class="job-location">Coral Gables, Florida</h4>
-          <h5 class="job-date">November 2015 - February 2016</h5>
-          <h6 class="job-position">Account Executive</h6>
+          <p class="job-title">PhilADthropy</p>
+          <p class="job-location">Coral Gables, Florida</p>
+          <p class="job-date">November 2015 - February 2016</p>
+          <p class="job-position">Account Executive</p>
           <ul class="sets">
             <li id ="extra">Recruited local and large-chain businesses such as Chipotle and Trader Joes as sponsors for the 25-hour charity blitz where about 200 University of Miami advertising and marketing students create campaigns for 12 non-profit organizations</li>
           </ul>
         </article>
 
         <article id="shbp">
-          <h3 class="job-title">Seaside Heights Beach Patrol</h3>
-          <h4 class="job-location">Seaside Heights, New Jersey</h4>
-          <h5 class="job-date">June 2014 - August 2015</h5>
-          <h6 class="job-position">Lifeguard</h6>
+          <p class="job-title">Seaside Heights Beach Patrol</p>
+          <p class="job-location">Seaside Heights, New Jersey</p>
+          <p class="job-date">June 2014 - August 2015</p>
+          <p class="job-position">Lifeguard</p>
           <ul class="sets">
             <li>Recipient of the Outstanding Rookie Lifeguard award in 2014</li>
             <li>ULSA Open Water and CPR Certified</li>
@@ -100,15 +114,16 @@
         </article>
 
         <article id="american-eagle">
-          <h3 class="job-title">American Eagle Outfitters</h3>
-          <h4 class="job-location">Toms River, New Jersey</h4>
-          <h5 class="job-date">October 2012 - March 2013</h5>
-          <h6 class="job-position">Sales Associate</h6>
+          <p class="job-title">American Eagle Outfitters</p>
+          <p class="job-location">Toms River, New Jersey</p>
+          <p class="job-date">October 2012 - March 2013</p>
+          <p class="job-position">Sales Associate</p>
           <ul class="sets">
             <li>Engaged, greeted, and interacted with, on average, 100 customers a day in a courteous and approachable manner</li>
             <li>Demonstrated excellent customer service by assisting in finding desired products and making sales</li>
           </ul>
         </article>
+      </div>
       </section>
     </div>
 
@@ -128,6 +143,19 @@
           </ul>
       </section>
     </div>
+  </div>
+
+  <footer id="visit">
+  <p id="contactico>
+    235 Sandlewood Drive, Bayville, NJ 08721<br>
+    <a class="email-links" href="mailto:mackbateman5@gmail.com">mackbateman5@gmail.com</a><br>
+    <a class="email-links" href="mailto:m.bateman@miami.edu">m.bateman@miami.edu</a><br>
+    <a id="links" class="email-links" href="https://www.linkedin.com/in/makena-bateman-789762b3">LinkedIn</a><br>
+    646-872-4758<br>
+  </p>
+
+  <p id="visit">Please visit the full site or contact me for best interaction!</p>
+</footer>
 
   </body>
 </html>
