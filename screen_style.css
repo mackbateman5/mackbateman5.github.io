@@ -1,0 +1,91 @@
+*{
+  font-family: Poiret One;
+  color: black;
+}
+body{
+  background-color: silver;
+}
+#contents{
+
+}
+.page-header{
+  position: relative;
+  text-align: left;
+  font-size: 200%;
+  border-bottom: solid 2px black;
+  font-family: Dosis;
+  marin: 20px;
+}
+.uninav{
+  position: relative;
+  bottom: 60px;
+  margin-left: 50%;
+  text-align: right;
+  font-size: 150%;
+  word-spacing: 20px;
+  marin: 20px;
+  display: inline;
+}
+
+#welcome{
+  font-size: 100pt;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  background-color: lightgrey;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Poiret One;
+}
+
+a:hover{
+  color: darkblue;
+}
+
+#aboutme{
+  position: relative;
+  bottom: 50px;
+}
+
+#contax{
+  background-color: lightgrey;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-family: Dosis;
+  font-size: 150%;
+}
+#port{
+  position: relative;
+  bottom: 50px;
+}
+
+#res{
+  position: relative;
+  bottom: 50px;
+}
+h2{
+  font-family: dosis;
+}
+#resume-nav, #education, #experience, #skills{
+  position: relative;
+  bottom: 50px;
+}
+#resume-picture{
+  margin-right: 50px;
+}
+
+.job-title{
+  font-size: 125%;
+  font-style: italic;
+  font-weight: bold;
+}
+.job-position{
+  text-decoration: underline;
+}
+#resume-nav, #contacts, #contact-info{
+  display: none;
+}
+#visit{
+  display: none;
+}

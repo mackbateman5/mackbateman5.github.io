@@ -1,0 +1,152 @@
+*{
+  background:transparent; !important
+  color:black;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page{
+  margin: .5in;
+}
+.side1{
+  float:left;
+  width:4in;
+  height: 5in;
+}
+.side2{
+  float:right;
+  width: 3.7in;
+  height: 5in;
+}
+#links:before{
+  content:"https://www.linkedin.com/in/makena-bateman-789762b3";
+}
+h1{
+  font-size: 35pt;
+  border-bottom: 2pt solid;
+  text-align: center;
+}
+img,#contacts{
+  display: none;
+}
+address{
+  position: relative;
+  bottom: 15pt;
+}
+.email-links{
+  text-decoration: none;
+}
+nav{
+  display: none;
+}
+#education{
+  position: relative;
+  bottom: 25pt;
+  left: 55pt;
+  bottom: 90pt;
+  margin: 10pt;
+}
+#education-header{
+  font-size:22pt;
+  border-bottom: 2pt solid;
+  position: relative;
+  bottom: 20pt;
+  right:5pt;
+}
+#edu,#yat,#date{
+  position: relative;
+  bottom: 25pt;
+  line-height: .5;
+}
+#edu{
+  font-weight: bold;
+}
+#yat{
+  font-style: italic;
+}
+#edu2{
+  position: relative;
+  right:17pt;
+  bottom: 25pt;
+}
+#experience{
+  position: relative;
+  bottom: 400pt;
+}
+#experience-header{
+  font-size:22pt;
+  border-bottom: 2pt solid;
+  position: relative;
+  width: 300pt;
+}
+.sets{
+  position: relative;
+  right: 20pt;
+}
+#thrillist,#shbp,#american-eagle,#philadthropy{
+  position: relative;
+  bottom: 45pt;
+  border-top: 2pt solid;
+}
+#thrillist,#philadthropy{
+  position: relative;
+  bottom: 80pt;
+}
+#experience-header,#hrl,#thrillist,#philadthropy{
+  position: relative;
+  top: 375pt;
+}
+#american-eagle{
+  position: relative;
+}
+#shbp,#american-eagle{
+  position: relative;
+  left: 300pt;
+  top: 60pt;
+}
+#shbp{
+  border-top: 2pt solid;
+  position: relative;
+}
+#extra{
+  position: relative;
+  bottom: 10pt;
+}
+.job-title,.job-position,.job-location,.job-date{
+  line-height: 0.5;
+}
+.job-title{
+  font-size: 13pt;
+  font-weight: bold;
+}
+.job-locatoin{
+  font-style: italic;
+}
+.job-date{
+  position: relative;
+  bottom:5pt;
+}
+.job-position{
+  position: relative;
+  margin-top: 5pt;
+  text-decoration: underline;
+}
+
+#skills{
+  position: relative;
+  bottom: 320pt;
+  left:60pt;
+}
+#skills-header{
+  font-size:22pt;
+  border-bottom: 2pt solid;
+  position: relative;
+}
+#skillset{
+  position: relative;
+  right: 10pt;
+  bottom: 10pt;
+}
+#contactico,#visit{
+  display: none;
+}
